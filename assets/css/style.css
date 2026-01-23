@@ -1,0 +1,12 @@
+body {
+    background-color: #191d7b;
+    max-width: 512px;
+    margin: 0 auto;
+    color: white;
+}
+.card {
+    background-color: #5d64d1;
+}
+#banner {
+    width: 100%;
+}
