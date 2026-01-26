@@ -13,23 +13,37 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+button {
+    margin: 1rem auto;
+    width: 100%;
+    padding: 1rem;
+    display: block;
+    border-radius: 1rem;
+}
+#button-open-discord {
+    background-color: blue;
+    color: white;
+}
+p {
+    margin: 1rem
+}
 .card {
     background-color: #5d64d1;
     padding: 1rem;
-    margin: 1rem;
-    border-radius: 1rem;
+    margin: 3rem 1rem;
+    border-radius: 2rem;
 }
 #card-header {
     text-align: center;
-    margin: 4rem 1rem;
+    margin: 4rem 1rem 0rem 1rem;
+
 }
 #banner {
     width: 100%;
 }
-
-/* temporary diplay solution */
-img {
+.card-video {
     width: 100%;
+    border-radius: 2rem;
 }
 
 .sigmar-regular {
@@ -41,4 +55,5 @@ img {
 
 h1 {
     line-height: 2rem;
+    margin: 1rem;
 }
