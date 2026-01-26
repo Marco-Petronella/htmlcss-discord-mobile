@@ -9,7 +9,6 @@ body {
     margin: 0 auto;
     color: white;
     font-family: "DM Sans", sans-serif;
-    /* font-optical-sizing:auto; */
     font-weight: 400;
     font-style: normal;
 }
@@ -59,4 +58,9 @@ p {
 h1 {
     line-height: 2rem;
     margin: 1rem;
+}
+
+.image_overlay {
+    width: 100px;
+    margin: 0 0 -6rem 5rem;
 }
