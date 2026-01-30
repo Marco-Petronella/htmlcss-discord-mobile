@@ -3,6 +3,12 @@
  	padding: 0;
  	box-sizing: border-box;
 }
+
+:root {
+    /* si usa per conservare variabili */
+    --dis-page-colorbg: #ffffff;
+    --dis-page-align: center;
+}
 body {
     background-color: #191d7b;
     max-width: 512px;
@@ -32,6 +38,8 @@ p {
     padding: 2rem;
     margin: 3rem 1rem;
     border-radius: 2rem;
+    position: relative;
+    /* background-image: linear-gradient(violet, blue); per fare sfumatura*/
 }
 #card-header {
     text-align: center;
@@ -62,5 +70,8 @@ h1 {
 
 .image_overlay {
     width: 100px;
-    margin: 0 0 -6rem 5rem;
+    position:absolute; 
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
 }
